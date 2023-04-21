@@ -6,6 +6,7 @@ model:
   drop_path_rate: 0
   use_grad_checkpoint: False
   vit_precision: "fp16"
+  # vit_precision: "fp8"
   freeze_vit: True
   freeze_qformer: True
 
@@ -13,7 +14,8 @@ model:
   num_query_token: 32
 
   # Vicuna
-  llama_model: "/path/to/vicuna/weights/"
+  # llama_model: "/path/to/vicuna/weights/"
+  llama_model: "/mnt/d/Hugging_Face_Models/vicuna-13b-delta-v0/weight/"
 
   # generation configs
   prompt: ""

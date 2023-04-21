@@ -8,8 +8,8 @@ model:
   low_resource: True
   prompt_path: "prompts/alignment.txt"
   prompt_template: '###Human: {} ###Assistant: '
-  ckpt: '/path/to/pretrained/ckpt/'
-
+  # ckpt: '/path/to/pretrained/ckpt/'
+  ckpt: '/mnt/d/Hugging_Face_Models/vicuna-13b-delta-v0/ckpt/pretrained_minigpt4.pth'
 
 datasets:
   cc_sbu_align:
